@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             String univName = edit1.getText().toString(); // 반환 받은 값을 스트링 형식으로 변환
             String result = univName + "에 합격하신 것을 진심으로 축하드립니다!";
             textResult.setText(result); // TextView에 문구 출력
-            textResult.setTextColor(Color.rgb(183, 240, 177));
+            textResult.setTextColor(Color.rgb(183, 240, 177));ㄴ
         }
     };
 }
